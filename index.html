@@ -96,9 +96,140 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/11/10/1/" data-id="cjpey4z4m0000h4qswu8t72bi" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/11/10/1/" data-id="cjpeyii5n0000zsqssx8ypvtt" class="article-share-link">Share</a>
       
       
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-Elasticsearch 架构以及源码概览" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/02/10/Elasticsearch 架构以及源码概览/" class="article-date">
+  <time datetime="2016-02-10T13:03:14.000Z" itemprop="datePublished">2016-02-10</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/02/10/Elasticsearch 架构以及源码概览/">Elasticsearch 架构以及源码概览</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Elasticsearch 架构以及源码概览<br>
+        
+          </p><p class="article-more-link">
+            <a href="/2016/02/10/Elasticsearch 架构以及源码概览/#more">Read More</a>
+          </p>
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2016/02/10/Elasticsearch 架构以及源码概览/" data-id="cjpeyii5t0001zsqszja4vs46" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/大数据/">大数据</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-Spark知识体系完整解读" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2015/07/10/Spark知识体系完整解读/" class="article-date">
+  <time datetime="2015-07-10T07:24:52.000Z" itemprop="datePublished">2015-07-10</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/07/10/Spark知识体系完整解读/">Spark知识体系完整解读</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="Spark简介"><a href="#Spark简介" class="headerlink" title="Spark简介"></a>Spark简介</h1><p>　　Spark是整个BDAS的核心组件，是一个大数据分布式编程框架，不仅实现了MapReduce的算子map 函数和reduce函数及计算模型，还提供更为丰富的算子，如filter、join、groupByKey等。是一个用来实现快速而同用的集群计算的平台。</p>
+<p>　　Spark将分布式数据抽象为弹性分布式数据集（RDD），实现了应用任务调度、RPC、序列化和压缩，并为运行在其上的上层组件提供API。其底层采用Scala这种函数式语言书写而成，并且所提供的API深度借鉴Scala函数式的编程思想，提供与Scala类似的编程接口<br>
+        
+          </p><p class="article-more-link">
+            <a href="/2015/07/10/Spark知识体系完整解读/#more">Read More</a>
+          </p>
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2015/07/10/Spark知识体系完整解读/" data-id="cjpeyii670009zsqsucxf7fhv" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/大数据/">大数据</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-HBase基本架构及原理" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2014/07/10/HBase基本架构及原理/" class="article-date">
+  <time datetime="2014-07-10T14:03:54.000Z" itemprop="datePublished">2014-07-10</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2014/07/10/HBase基本架构及原理/">HBase框架简单介绍</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="1-HBase框架简单介绍"><a href="#1-HBase框架简单介绍" class="headerlink" title="1. HBase框架简单介绍"></a>1. HBase框架简单介绍</h1><p>HBase是一个分布式的、面向列的开源数据库，它不同于一般的关系数据库,是一个适合于非结构化数据存储的数据库。另一个不同的是HBase基于列的而不是基于行的模式。HBase使用和 BigTable非常相同的数据模型。用户存储数据行在一个表里。一个数据行拥有一个可选择的键和任意数量的列，一个或多个列组成一个ColumnFamily，一个Fmaily下的列位于一个HFile中，易于缓存数据。表是疏松的存储的，因此用户可以给行定义各种不同的列。在HBase中数据按主键排序，同时表按主键划分为多个Region。</p>
+<p>在分布式的生产环境中，HBase 需要运行在 HDFS 之上，以 HDFS 作为其基础的存储设施。HBase 上层提供了访问的数据的 Java API 层，供应用访问存储在 HBase 的数据。在 HBase 的集群中主要由 Master 和 Region Server 组成，以及 Zookeeper，具体模块如下图所示：<br>
+        
+          </p><p class="article-more-link">
+            <a href="/2014/07/10/HBase基本架构及原理/#more">Read More</a>
+          </p>
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2014/07/10/HBase基本架构及原理/" data-id="cjpeyii5w0002zsqsfj9gzw1k" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/大数据/">大数据</a></li></ul>
+
     </footer>
   </div>
   
@@ -142,7 +273,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2009/07/10/大数据平台cdh搭建3/" data-id="cjpey4z5h0004h4qsaw07123f" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2009/07/10/大数据平台cdh搭建3/" data-id="cjpeyii640006zsqspwpdhagm" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/大数据/">大数据</a></li></ul>
@@ -190,7 +321,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2009/06/10/大数据平台cdh搭建2/" data-id="cjpey4z520001h4qsv77gix0n" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2009/06/10/大数据平台cdh搭建2/" data-id="cjpeyii610004zsqsn83gmdzz" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/大数据/">大数据</a></li></ul>
@@ -238,7 +369,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2009/05/10/大数据平台cdh搭建/" data-id="cjpey4z5h0005h4qsmh80nb5t" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2009/05/10/大数据平台cdh搭建/" data-id="cjpeyii620005zsqsma5xvo36" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/大数据/">大数据</a></li></ul>
@@ -282,7 +413,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">归档</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/11/">十一月 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2009/07/">七月 2009</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2009/06/">六月 2009</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2009/05/">五月 2009</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/11/">十一月 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/02/">二月 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/07/">七月 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/07/">七月 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2009/07/">七月 2009</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2009/06/">六月 2009</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2009/05/">五月 2009</a></li></ul>
     </div>
   </div>
 
@@ -299,15 +430,19 @@
           </li>
         
           <li>
+            <a href="/2016/02/10/Elasticsearch 架构以及源码概览/">Elasticsearch 架构以及源码概览</a>
+          </li>
+        
+          <li>
+            <a href="/2015/07/10/Spark知识体系完整解读/">Spark知识体系完整解读</a>
+          </li>
+        
+          <li>
+            <a href="/2014/07/10/HBase基本架构及原理/">HBase框架简单介绍</a>
+          </li>
+        
+          <li>
             <a href="/2009/07/10/大数据平台cdh搭建3/">大数据平台CDH搭建3</a>
-          </li>
-        
-          <li>
-            <a href="/2009/06/10/大数据平台cdh搭建2/">大数据平台CDH搭建2</a>
-          </li>
-        
-          <li>
-            <a href="/2009/05/10/大数据平台cdh搭建/">大数据平台CDH搭建</a>
           </li>
         
       </ul>
